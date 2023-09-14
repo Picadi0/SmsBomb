@@ -100,7 +100,6 @@ namespace smsbomb
                             Console.WriteLine("[x] account.my.com :" + response.StatusCode + " ----> +90 " + phone.Substring(0, 3) + " " + phone.Substring(3, 3) + " " + phone.Substring(6, 2) + phone.Substring(8));
                         }
                     }
-                return;
                 //koton
                 if (sent < shouldsent)
                     using (HttpClient client = new HttpClient())
